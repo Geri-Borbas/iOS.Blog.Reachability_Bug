@@ -47,6 +47,8 @@
         if (hostSeemsIPaddress) //Reachability for host address.
         {            
             struct sockaddr_in hostAddress;
+            bzero(&hostAddress, sizeof(hostAddress));
+            hostAddress.sin_len = sizeof(hostAddress);
             hostAddress.sin_family = AF_INET;
             hostAddress.sin_addr.s_addr = inet_addr([host UTF8String]);
             reachabilityRef = SCNetworkReachabilityCreateWithAddress(NULL, (const struct sockaddr*)&hostAddress);
@@ -59,6 +61,8 @@
     
         //Add this viewController as context object.
         SCNetworkReachabilityContext context = {0, (__bridge void*)self, NULL, NULL, NULL};
+    
+    NSLog(@"reachabilityRef %@", reachabilityRef);
     
     //Get reachability status.
     
