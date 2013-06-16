@@ -8,7 +8,6 @@ if (asynchronous) //The asynchronous way, NOT WORKS (!!!) with IP addresses as h
     SCNetworkReachabilitySetDispatchQueue(reachabilityRef, dispatch_queue_create("com.eppz.reachability", nil));
 }
 else //The synchronous way, works well with IP addresses as host.
-
 {
     //Get flags.
     SCNetworkReachabilityFlags flags;
@@ -17,7 +16,7 @@ else //The synchronous way, works well with IP addresses as host.
 }
 ```
 - - -
-If you can explain me what is going on here, any comment is welcome on the corresponding blog post at [http://eppz.eu/blog/?p=260](http://eppz.eu/blog/?p=260).
+If you can explain me what is going on here, shed any light what could be the reason behind this, any comment is welcome on the corresponding blog post at [http://eppz.eu/blog/?p=260](http://eppz.eu/blog/?p=260).
 
 #### License
 > Licensed under the [Open Source MIT license](http://en.wikipedia.org/wiki/MIT_License).
