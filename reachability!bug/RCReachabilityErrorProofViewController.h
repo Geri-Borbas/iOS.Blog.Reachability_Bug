@@ -1,5 +1,5 @@
 //
-//  RCAppDelegate.h
+//  RCViewController.h
 //  eppz!tools
 //
 //  Created by Borbás Geri on 6/15/13.
@@ -11,9 +11,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface RCAppDelegate : UIResponder <UIApplicationDelegate>
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <netinet/in.h>
+#import <arpa/inet.h>
 
-@property (strong, nonatomic) UIWindow *window;
+#import "RCRechabilityStatusView.h"
+
+
+@interface RCReachabilityErrorProofViewController : UIViewController
+
+    <UITextFieldDelegate>
+
+@property (nonatomic, weak) IBOutlet UISegmentedControl *rechabilityModeSegmentedControl;
+@property (nonatomic, weak) IBOutlet RCRechabilityStatusView *statusView;
 
 @end

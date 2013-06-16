@@ -1,5 +1,5 @@
 //
-//  RCAppDelegate.h
+//  RCRechabilityStatusView.h
 //  eppz!tools
 //
 //  Created by Borbás Geri on 6/15/13.
@@ -11,9 +11,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SystemConfiguration/SystemConfiguration.h>
 
-@interface RCAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@interface RCRechabilityStatusView : UIView
+
+@property (nonatomic, strong) NSString *latestHost;
+@property (nonatomic, weak) IBOutlet UILabel *hostLabel;
+-(void)reset;
+-(void)showReachabilityFlags:(SCNetworkReachabilityFlags) flags;
 
 @end

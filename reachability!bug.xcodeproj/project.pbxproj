@@ -16,9 +16,14 @@
 		AEEBC110176E2F53006DC50B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEBC10F176E2F53006DC50B /* Default.png */; };
 		AEEBC112176E2F53006DC50B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEBC111176E2F53006DC50B /* Default@2x.png */; };
 		AEEBC114176E2F53006DC50B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEBC113176E2F53006DC50B /* Default-568h@2x.png */; };
-		AEEBC117176E2F53006DC50B /* RCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEBC116176E2F53006DC50B /* RCViewController.m */; };
-		AEEBC11A176E2F53006DC50B /* RCViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEEBC118176E2F53006DC50B /* RCViewController_iPhone.xib */; };
-		AEEBC11D176E2F53006DC50B /* RCViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEEBC11B176E2F53006DC50B /* RCViewController_iPad.xib */; };
+		AEEBC126176E2F93006DC50B /* RCReachabilityErrorProofViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEBC124176E2F93006DC50B /* RCReachabilityErrorProofViewController.m */; };
+		AEEBC127176E2F93006DC50B /* RCReachabilityErrorProofViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEEBC125176E2F93006DC50B /* RCReachabilityErrorProofViewController.xib */; };
+		AEEBC12A176E2FA0006DC50B /* RCRechabilityStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEEBC129176E2FA0006DC50B /* RCRechabilityStatusView.m */; };
+		AEEBC131176E2FB8006DC50B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEBC12D176E2FB8006DC50B /* icon.png */; };
+		AEEBC132176E2FB8006DC50B /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEBC12E176E2FB8006DC50B /* icon@2x.png */; };
+		AEEBC133176E2FB8006DC50B /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEBC12F176E2FB8006DC50B /* icon-72@2x.png */; };
+		AEEBC134176E2FB8006DC50B /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = AEEBC130176E2FB8006DC50B /* icon-72.png */; };
+		AEEBC136176E2FE5006DC50B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEEBC135176E2FE5006DC50B /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,10 +40,16 @@
 		AEEBC10F176E2F53006DC50B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		AEEBC111176E2F53006DC50B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		AEEBC113176E2F53006DC50B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		AEEBC115176E2F53006DC50B /* RCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCViewController.h; sourceTree = "<group>"; };
-		AEEBC116176E2F53006DC50B /* RCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCViewController.m; sourceTree = "<group>"; };
-		AEEBC119176E2F53006DC50B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RCViewController_iPhone.xib; sourceTree = "<group>"; };
-		AEEBC11C176E2F53006DC50B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RCViewController_iPad.xib; sourceTree = "<group>"; };
+		AEEBC123176E2F93006DC50B /* RCReachabilityErrorProofViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCReachabilityErrorProofViewController.h; sourceTree = "<group>"; };
+		AEEBC124176E2F93006DC50B /* RCReachabilityErrorProofViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCReachabilityErrorProofViewController.m; sourceTree = "<group>"; };
+		AEEBC125176E2F93006DC50B /* RCReachabilityErrorProofViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCReachabilityErrorProofViewController.xib; sourceTree = "<group>"; };
+		AEEBC128176E2FA0006DC50B /* RCRechabilityStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCRechabilityStatusView.h; sourceTree = "<group>"; };
+		AEEBC129176E2FA0006DC50B /* RCRechabilityStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCRechabilityStatusView.m; sourceTree = "<group>"; };
+		AEEBC12D176E2FB8006DC50B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		AEEBC12E176E2FB8006DC50B /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		AEEBC12F176E2FB8006DC50B /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
+		AEEBC130176E2FB8006DC50B /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
+		AEEBC135176E2FE5006DC50B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +60,7 @@
 				AEEBC0FE176E2F53006DC50B /* UIKit.framework in Frameworks */,
 				AEEBC100176E2F53006DC50B /* Foundation.framework in Frameworks */,
 				AEEBC102176E2F53006DC50B /* CoreGraphics.framework in Frameworks */,
+				AEEBC136176E2FE5006DC50B /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +87,7 @@
 		AEEBC0FC176E2F53006DC50B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AEEBC135176E2FE5006DC50B /* SystemConfiguration.framework */,
 				AEEBC0FD176E2F53006DC50B /* UIKit.framework */,
 				AEEBC0FF176E2F53006DC50B /* Foundation.framework */,
 				AEEBC101176E2F53006DC50B /* CoreGraphics.framework */,
@@ -87,10 +100,7 @@
 			children = (
 				AEEBC10C176E2F53006DC50B /* RCAppDelegate.h */,
 				AEEBC10D176E2F53006DC50B /* RCAppDelegate.m */,
-				AEEBC115176E2F53006DC50B /* RCViewController.h */,
-				AEEBC116176E2F53006DC50B /* RCViewController.m */,
-				AEEBC118176E2F53006DC50B /* RCViewController_iPhone.xib */,
-				AEEBC11B176E2F53006DC50B /* RCViewController_iPad.xib */,
+				AEEBC12B176E2FA3006DC50B /* Views */,
 				AEEBC104176E2F53006DC50B /* Supporting Files */,
 			);
 			path = "reachability!bug";
@@ -106,8 +116,32 @@
 				AEEBC10F176E2F53006DC50B /* Default.png */,
 				AEEBC111176E2F53006DC50B /* Default@2x.png */,
 				AEEBC113176E2F53006DC50B /* Default-568h@2x.png */,
+				AEEBC12D176E2FB8006DC50B /* icon.png */,
+				AEEBC12E176E2FB8006DC50B /* icon@2x.png */,
+				AEEBC12F176E2FB8006DC50B /* icon-72@2x.png */,
+				AEEBC130176E2FB8006DC50B /* icon-72.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEEBC12B176E2FA3006DC50B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AEEBC123176E2F93006DC50B /* RCReachabilityErrorProofViewController.h */,
+				AEEBC124176E2F93006DC50B /* RCReachabilityErrorProofViewController.m */,
+				AEEBC125176E2F93006DC50B /* RCReachabilityErrorProofViewController.xib */,
+				AEEBC12C176E2FAD006DC50B /* Reachability status view */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		AEEBC12C176E2FAD006DC50B /* Reachability status view */ = {
+			isa = PBXGroup;
+			children = (
+				AEEBC128176E2FA0006DC50B /* RCRechabilityStatusView.h */,
+				AEEBC129176E2FA0006DC50B /* RCRechabilityStatusView.m */,
+			);
+			name = "Reachability status view";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,8 +200,11 @@
 				AEEBC110176E2F53006DC50B /* Default.png in Resources */,
 				AEEBC112176E2F53006DC50B /* Default@2x.png in Resources */,
 				AEEBC114176E2F53006DC50B /* Default-568h@2x.png in Resources */,
-				AEEBC11A176E2F53006DC50B /* RCViewController_iPhone.xib in Resources */,
-				AEEBC11D176E2F53006DC50B /* RCViewController_iPad.xib in Resources */,
+				AEEBC127176E2F93006DC50B /* RCReachabilityErrorProofViewController.xib in Resources */,
+				AEEBC131176E2FB8006DC50B /* icon.png in Resources */,
+				AEEBC132176E2FB8006DC50B /* icon@2x.png in Resources */,
+				AEEBC133176E2FB8006DC50B /* icon-72@2x.png in Resources */,
+				AEEBC134176E2FB8006DC50B /* icon-72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,7 +217,8 @@
 			files = (
 				AEEBC10A176E2F53006DC50B /* main.m in Sources */,
 				AEEBC10E176E2F53006DC50B /* RCAppDelegate.m in Sources */,
-				AEEBC117176E2F53006DC50B /* RCViewController.m in Sources */,
+				AEEBC126176E2F93006DC50B /* RCReachabilityErrorProofViewController.m in Sources */,
+				AEEBC12A176E2FA0006DC50B /* RCRechabilityStatusView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,22 +231,6 @@
 				AEEBC107176E2F53006DC50B /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		AEEBC118176E2F53006DC50B /* RCViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AEEBC119176E2F53006DC50B /* en */,
-			);
-			name = RCViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		AEEBC11B176E2F53006DC50B /* RCViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AEEBC11C176E2F53006DC50B /* en */,
-			);
-			name = RCViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
