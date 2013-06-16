@@ -335,6 +335,7 @@
 				AEEBC122176E2F53006DC50B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

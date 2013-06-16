@@ -76,7 +76,7 @@
             SCNetworkReachabilityFlags flags;
             if (SCNetworkReachabilityGetFlags(reachabilityRef, &flags))
                 [self.statusView showReachabilityFlags:flags];
-    }
+        }
 }
 
 static void reachabilityCallback(SCNetworkReachabilityRef reachabilityRef, SCNetworkReachabilityFlags flags, void* info)
