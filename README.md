@@ -1,4 +1,4 @@
-## ![eppz!tools](http://eppz.eu/layout/common/eppz_50_GitHub.png) reachability!bug
+## ![eppz!tools](http://www.eppz.eu/beacons/reachability!bug.png) reachability!bug
 A proof project to reproduce Reachability bug when SCNetworkReachability callback function never get called when SCNetworkReachabilityRef was initialized with an address. You can easily switch wbetween the two implementation and see the error reproduced. The bottleneck code is the following.
 ```Objective-C
 if (asynchronous) //The asynchronous way, NOT WORKS (!!!) with IP addresses as host.
