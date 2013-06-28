@@ -20,3 +20,5 @@ If you can explain me what is going on here, shed any light what could be the re
 
 #### License
 > Licensed under the [Open Source MIT license](http://en.wikipedia.org/wiki/MIT_License).
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/5e5714890e6636b863bd5ebe82e1628e "githalytics.com")](http://githalytics.com/eppz/reachability-bug)
